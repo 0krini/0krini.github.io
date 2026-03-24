@@ -73,6 +73,7 @@ img {
 .main {
   margin-right: 160px; /* CHANGED: Changed margin-left to margin-right */
   margin-left: 160px;  /* Ensure left margin is reset if needed */
+  margin-top: 80px;
   padding: 0px 10px;
 }
 
