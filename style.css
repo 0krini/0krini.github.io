@@ -36,12 +36,6 @@ img {
   color: #f1f1f1;
 }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -78,7 +72,7 @@ img {
 /* Style page content */
 .main {
   margin-right: 160px; /* CHANGED: Changed margin-left to margin-right */
-  margin-left: 0;      /* Ensure left margin is reset if needed */
+  margin-left: 160px;  /* Ensure left margin is reset if needed */
   padding: 0px 10px;
 }
 
