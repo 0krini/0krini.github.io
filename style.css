@@ -12,7 +12,7 @@ img {
 /* The LEFT sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 5%; /* Set the width of the sidebar */
+  width: 10%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -45,7 +45,7 @@ img {
 /* The RIGHT menu */
 .sidenav2 {
   height: 100%;
-  width: 5%;
+  width: 10%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -71,9 +71,9 @@ img {
 
 /* Style page content */
 .main {
-  margin-right: 5%; /* CHANGED: Changed margin-left to margin-right */
-  margin-left: 5%;  /* Ensure left margin is reset if needed */
-  margin-top: 80px;
+  margin-right: 10%; /* CHANGED: Changed margin-left to margin-right */
+  margin-left: 10%;  /* Ensure left margin is reset if needed */
+  margin-top: 5%;
   padding: 0px 10px;
 }
 
