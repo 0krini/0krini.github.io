@@ -3,7 +3,27 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Eradication Consortium - Staff</title> <!-- Tab Title -->
+    <title>Eradication Consortium - Inventory</title> <!-- Tab Title -->
+    <style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+td, th {
+  border: 5px solid rgb(62, 62, 62);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: rgb(62, 62, 62);
+}
+tr:nth-child(n+2) {
+  background-color: rgb(230, 230, 230);
+}
+</style>
 </head>
 <body>
     <!-- Side navigation -->
@@ -25,10 +45,22 @@
 <!-- Page content -->
 <div class="main">
     <img src="ConsortiumHeader.png" alt="i have no idea what this is" width="1387" height="237"> <!-- Image Page Header -->
-    <h1 style="font-family: Garamond, serif; margin: 20px;">Staff</h1> <!-- Paragraph Header -->
+    <h1 style="font-family: Garamond, serif; margin: 20px; text-align: center;">Global Inventory</h1> <!-- Paragraph Header -->
     <p style="font-family: Garamond, serif; margin: 20px; font-size: 20px;">
-        
-Staff schmaff.
+<table>
+  <tr>
+    <th style="color:white;">Username</th>
+    <th style="color:white;">Slots</th>
+    <th style="color:white;">Characters</th>
+    <th style="color:white;">Credits</th>
+  </tr>
+  <tr>
+    <td>butchercore</td>
+    <td>001</td>
+    <td>N/A</td>
+    <td>1000</td>
+  </tr>
+</table>
     </p>
 </div>
 </body>
